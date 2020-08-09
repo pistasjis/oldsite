@@ -1,7 +1,6 @@
 # Table of Pages
 [Index](../) | [Acer trackpad trick for Linux](acertrick.md)
-
-# A Very Weird Trick That Enables Trackpad Support on Acer Machines running Linux
+# Enable Acer trackpad support for GNU/Linux
 **If you have a laptop from Acer running GNU/Linux, you've probably encountered this.**
 
 "My trackpad isn't working no matter what I do!"
