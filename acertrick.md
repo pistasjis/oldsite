@@ -1,3 +1,7 @@
+
+---
+permalink: /acertrick.html
+---
 # Table of Pages
 [Index](../) | [Acer trackpad trick for Linux](acertrick.md)
 # Enable Acer trackpad support for GNU/Linux
