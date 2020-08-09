@@ -1,5 +1,5 @@
 
----
+
 permalink: /acertrick.html
 ---
 # Table of Pages
