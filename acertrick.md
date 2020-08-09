@@ -13,6 +13,6 @@ Do the following:
   1. Boot your machine into the Setup Utility (usually F2 is the button that does this)
   2. Navigate to Main
   3. Find "Trackpad"
-  4. Change it from Advanced to Basic
+  4. Change it from Advanced to Basic (Advanced requires a I2C driver of some sorts, I assume that's the Win10 driver, and that wont work on anything that isn't Windows 10.)
   5. Reboot to your GNU/Linux distro of choice and enjoy your trackpad.
   
