@@ -1,3 +1,4 @@
+### Main Page
 
 # Table of Pages
 [Index](../) | [Acer trackpad trick for Linux](acertrick.md)
