@@ -1,7 +1,7 @@
 ### Main Page
 
 # Table of Pages
-[Index](../) | [Acer trackpad trick for Linux](acertrick.md)
+[Index](../) | [Acer trackpad trick for Linux](acertrick.md) | [Low-end PC Tweaks](/tweaksandmore/lowendtweaks.md)
 
 # Odyssey's Page
 Welcome! Here you can find a lot of things I've made, information about some specific things I'm good at or have knowledge about! 
