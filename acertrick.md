@@ -2,7 +2,7 @@
 
 
 # Table of Pages
-[Index](../) | [Acer trackpad trick for Linux](acertrick.md)
+[Index](../) | [Acer trackpad trick for Linux](acertrick.md) | [Low-end PC Tweaks](/tweaksandmore/lowendtweaks.md)
 # Enable Acer trackpad support for GNU/Linux
 **If you have a laptop from Acer running GNU/Linux, you've probably encountered this.**
 
