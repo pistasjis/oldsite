@@ -1,7 +1,7 @@
 ### Low End Tweaks
 
 # Table of Pages
-[Index](../) | [Acer trackpad trick for Linux](../acertrick.md) | [Low-end PC Tweaks](/tweaksandmore/lowendtweaks.md)
+[Index](../) | [Acer trackpad trick for Linux](/acertrick.md) | [Low-end PC Tweaks](/tweaksandmore/lowendtweaks.md)
 
 # Tweaks you can do to get more performance on a crappy computer
 Hi, this is a simple guide I made to help people with bad computers get faster performance.
