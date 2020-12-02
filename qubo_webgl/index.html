@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
   <body>
-    <h1>Note: dont press quit, game freezes</h1>
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas"></canvas>
       <div id="unity-loading-bar">
@@ -27,9 +26,9 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/qubo_webgl.loader.js";
       var config = {
-        dataUrl: buildUrl + "/qubo_webgl.data.gz",
-        frameworkUrl: buildUrl + "/qubo_webgl.framework.js.gz",
-        codeUrl: buildUrl + "/qubo_webgl.wasm.gz",
+        dataUrl: buildUrl + "/qubo_webgl.data",
+        frameworkUrl: buildUrl + "/qubo_webgl.framework.js",
+        codeUrl: buildUrl + "/qubo_webgl.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Devnol",
         productName: "QuboRun",
