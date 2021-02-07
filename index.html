@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="src/index.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet"> 
         <title>Odyssey's site</title>
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta property="og:url" content="https://oxygemo.github.io">
@@ -10,12 +14,39 @@
         <meta property="og:description" content="Odyssey346's shit">
     </head>
     <body>
-        <center>
-            <h1>346 Under Construction</h1>
-        </center>
-        <hr>
-        <center>
-            <label>nginx</label>
-        </center>
+        <div class="center">
+            <div class="middle">
+                <h1>Odyssey346</h1>
+                <hr style="width:50%;text-align:left"> 
+                <a class="sociallink" href="https://steamcommunity.com/id/Odyssey346" title="Odyssey346's Steam"><img style="width: 20px; height: 20px;"src="src/images/steam.svg"></a>
+
+                <a class="sociallink" href="https://mastodon.online/@Odyssey346" title="Odyssey346's Mastodon"><img style="width: 20px; height: 20px;"src="src/images/mastodon.svg"></a>
+
+                <a class="sociallink" href="https://github.com/Oxygemo" title="Odyssey346's GitHub"><img style="width: 20px; height: 20px;"src="src/images/github.svg"></a>
+
+                <a class="sociallink" href="mailto:odyssey346@disroot.org" title="Odyssey346's E-Mail"><img style="width: 20px; height: 20px;"src="src/images/email.svg"></a>
+
+                <input type="image" src="src/images/discord.svg" alt="Odyssey346's Discord" style="width: 20px; height: 23.5px;" id="discordButton" onclick="copyDiscordTag()">
+                <script>
+                    function copyDiscordTag() {
+                        var dummy = document.createElement("textarea");
+                        // to avoid breaking orgain page when copying more words
+                        // cant copy when adding below this code
+                        // dummy.style.display = 'none'
+                        document.body.appendChild(dummy);
+                        //Be careful if you use texarea. setAttribute('value', value), which works with "input" does not work with "textarea". – Eduard
+                        dummy.value = "Odyssey346#9848";
+                        dummy.select();
+                        document.execCommand("copy");
+                        document.body.removeChild(dummy);
+                        alert("Copied to your clipboard!\nIf it didn't work, my tag is Odyssey346#9848.");
+                    }
+                </script>
+            </div>
+
+            <div class="middle-bottom">
+                <a href="https://github.com/Oxygemo/oxygemo.github.io">source code</a>
+            </div>
+        </div>
     </body>
 </html>

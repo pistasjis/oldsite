@@ -1,0 +1,37 @@
+body {
+    background: #3A3A3A;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.middle {
+    height: 200px;
+    width: 400px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
+
+a {
+    color:aqua;
+}
+
+.middle-bottom {
+    height: 200px;
+    width: 400px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: 300px;
+    margin-left: -200px;
+}
+
+img {
+    padding: 3px;
+}
+
+.center { /* <center> tag is no longer needed and is considered useless/going to be deprecated???? so im just gonna center using css and div */
+    text-align: center;
+}
