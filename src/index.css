@@ -2,16 +2,6 @@ body {
     background-color:rgb(20, 20, 20);
     color: white;
     font-family: 'Titillium Web', sans-serif;
-    animation-name: background-animation;
-    animation-duration: 8s;
-}
-
-@keyframes background-animation {
-    0%   {background-color: rgb(85, 4, 4);}
-    25%  {background-color: rgb(116, 116, 4);}
-    50%  {background-color: rgb(4, 4, 94);}
-    75% {background-color: rgb(5, 73, 5);}
-    100% {background-color: rgb(20, 20, 20);}
 }
 
 .middle {
