@@ -17,6 +17,13 @@
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
+.webring {
+    text-align: center;
+    position: absolute;
+    bottom: 8px;
+    left: 0px;
+    width: 100%;
+}
 
 .h1dance {
     animation-name: weeeeee;
@@ -70,7 +77,7 @@ a {
     position: fixed;
     top: 50%;
     left: 50%;
-    margin-top: 300px;
+    margin-top: 10%;
     margin-left: -200px;
 }
 
