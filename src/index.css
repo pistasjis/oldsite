@@ -33,15 +33,13 @@
 }
 
 .h1dance {
-    color: #00C000
+    color: #00C000;
 }
 
 body {
     background-color:rgb(20, 20, 20);
     color: white;
     font-family: 'Titillium Web', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
 }
 
 .sociallink {
