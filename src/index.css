@@ -34,6 +34,7 @@
 
 .h1dance {
     color: #00C000;
+    margin: 0;
 }
 
 body {
@@ -51,6 +52,14 @@ body {
    0% {opacity: 0;}
    100% {opacity: 1;}
 } 
+
+#profilepicture {
+    height: 100px;
+    width: 100px;
+    border-style: solid;
+    border-radius:50%;
+    border-color:lightcoral;
+}
 
 .middle {
     height: 200px;
