@@ -17,12 +17,7 @@
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-@media screen and (max-width: 600px) {
-    div.paragraph-start    {
-      font-size: 15px;
-    }
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 .webring {
     text-align: center;
@@ -33,13 +28,14 @@
 }
 
 .h1dance {
-    color: #00C000;
-    margin: 0;
+    margin-top: 0;
+    color: crimson;
 }
 
 body {
     background-color:rgb(20, 20, 20);
     color: white;
+    margin: 0px;
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -58,17 +54,15 @@ body {
     width: 100px;
     border-style: solid;
     border-radius:50%;
-    border-color:lightcoral;
 }
 
+
 .middle {
-    height: 200px;
-    width: 400px;
-    position: fixed;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
     top: 50%;
     left: 50%;
-    margin-top: -100px;
-    margin-left: -200px;
 }
 
 a {
@@ -92,4 +86,22 @@ img {
 
 .center { /* <center> tag is no longer needed and is considered useless/going to be deprecated???? so im just gonna center using css and div */
     text-align: center;
+}
+
+.pfp-holder {
+    margin-top: 14%;
+    margin-left: 0%;
+    position:static;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: calc(9px + 1vmin);
+    }
+    .pfp-holder {
+        margin-top: -50%;
+        margin-left: 0%;
+        position:static;
+    }
 }
