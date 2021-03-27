@@ -55,8 +55,6 @@ body {
     border-style: solid;
     border-radius:50%;
 }
-
-
 .middle {
     position: absolute;
     transform: translate(-50%, -50%);
