@@ -54,6 +54,13 @@ body {
     width: 100px;
     border-style: solid;
     border-radius:50%;
+    transition: all .5s ease-in-out;
+    margin-bottom: -20px;
+}
+
+#profilepicture:hover {
+    height: 125px;
+    width: 125px;
 }
 .middle {
     position: absolute;
@@ -84,12 +91,6 @@ img {
 
 .center { /* <center> tag is no longer needed and is considered useless/going to be deprecated???? so im just gonna center using css and div */
     text-align: center;
-}
-
-.pfp-holder {
-    margin-top: 14%;
-    margin-left: 0%;
-    position:static;
 }
 
 
