@@ -36,8 +36,13 @@
                 <br>
                 <script>
                     function copyDiscordTag() {
-                        navigator.clipboard.writeText("Odyssey346#9848");
                         alert("Copied to your clipboard!\nIf it didn't work, my tag is Odyssey346#9848.");
+                        try {
+                            navigator.clipboard.writeText("Odyssey346#9848");
+                        }
+                        catch (err) {
+                            console.log("clipboard copy failed, user agent:" + navigator.userAgent);
+                        } 
                     }
                 </script>
             </div>
