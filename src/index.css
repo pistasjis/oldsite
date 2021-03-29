@@ -44,6 +44,8 @@ body {
     animation-duration: 3s;
 }
 
+
+
 @keyframes fadeIn {
    0% {opacity: 0;}
    100% {opacity: 1;}
@@ -102,5 +104,9 @@ img {
         margin-top: -50%;
         margin-left: 0%;
         position:static;
+    }
+
+    img {
+        padding: 6px;
     }
 }
