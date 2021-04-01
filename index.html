@@ -14,14 +14,14 @@
         <meta name="description" content="Odyssey346's website, with his links to his social media and more!">
         <meta name="author" content="Alexander Johansen (Odyssey346)">
     </head>
-    <body id="content" onload="siteload()">
+    <body id="content">
         <!--are you a dev? check out https://github.com/Odyssey346/odyssey346.github.io for the source code-->
         <div class="center">
             <div class="middle">
                 <div class="wrapper">
                     <img src="src/images/profilepicture.webp" alt="odyssey's profile picture" title="stop hovering over the pfp nothing interesting is here, unless you click it" id="profilepicture" onclick="ComicSans()"/>
                     <div class="h1dance"><h1>Odyssey346</h1></div>
-                    <div class="paragraph-start"><p style="margin-top: -15px;">13 year old from Norway interested in computers.</p></div>
+                    <div class="paragraph-start"><p id="para" style="margin-top: -15px;">A Norwegian boy interested in computers, coding, Linux and gaming.</p></div>
                     <hr style="width:50%;text-align:center;color:#73ba25; border-color: #73ba25">
                     <a class="sociallink" href="https://steamcommunity.com/id/Odyssey346" title="Odyssey346's Steam"><img style="width: 20px; height: 20px;" src="src/images/steam.svg" alt="Odyssey346's Steam"></a>
 
@@ -34,7 +34,6 @@
                     <img type="image" src="src/images/discord.svg" alt="Odyssey346's Discord" id="discordButton" style="width: 20px; height: 20px; margin-bottom: -1px;" class="sociallink" title="Odyssey's Discord" onclick="copyDiscordTag()" />
                 </div>
                 <br>
-                <script src="src/scripts/confetti.min.js"></script>
                 <script>
                     function copyDiscordTag() {
                         alert("Copied to your clipboard!\nIf it didn't work, my tag is Odyssey346#9848.");
@@ -47,22 +46,6 @@
                     }
                     function ComicSans() {
                         document.getElementById("content").style.fontFamily = "Comic Sans MS, sans-serif"; 
-                    }
-                    function siteload() {
-                        var date = new Date();
-                        var current_day = date.getDate().toString();
-                        var current_month = date.getMonth().toString();
-                        var current_combined = current_day + current_month;
-                        console.log(current_combined);
-                        if (current_combined = "1310") {
-                            console.log("birthday!!!!!!!!!!!!!!!!")
-                            let confetti = new Confetti('content');
-                            confetti.setCount(500);
-                            confetti.setSize(1);
-                            confetti.setPower(50);
-                            confetti.setFade(false);
-                            confetti.destroyTarget(false); 
-                        }
                     }
                 </script>
             </div>
