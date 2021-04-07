@@ -1,16 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+
 .webring {
     text-align: center;
     position: fixed;
     bottom: 8px;
     left: 0px;
     width: 100%;
+    overflow:auto;
 }
 
 .h1dance {
     margin-top: 0;
-    color: crimson;
+    margin: 0;
+    color: #20C020;
 }
 
 
@@ -24,11 +32,10 @@ body {
 }
 
 .sociallink {
+    color: white;
     animation-name: fadeIn;
     animation-duration: 3s;
 }
-
-
 
 @keyframes fadeIn {
    0% {opacity: 0;}
