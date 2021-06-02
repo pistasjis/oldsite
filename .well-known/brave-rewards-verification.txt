@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: odyssey346.github.io
+Token: 23cd86aa60d133934dd4c516b96e3e247b9a3433cd161d25650623956eeece46
