@@ -1,30 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+:root {
+    --nice-green-color-from-akis: #0bf574;
+    --turqoise-aqua: rgb(21, 194, 194);
+}
+
 html {
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
 
 
-.webring {
+.bio-and-projects {
     text-align: center;
     position: fixed;
-    bottom: 8px;
-    left: 0px;
+    left: 5px;
     width: 100%;
-    overflow:auto;
 }
 
 .h1dance {
     margin-top: 0;
     margin: 0;
-    color: #20C020;
+    color: var(--nice-green-color-from-akis);
 }
 
 
 body {
     background-color:rgb(30, 30, 30);
-    color: white;
+    color: var(--nice-green-color-from-akis);
     margin: 0px;
     font-family: 'Open Sans', sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -64,9 +67,19 @@ body {
     
 }
 
+
+
 a {
-    color:inherit;
+    color:var(--turqoise-aqua);
     text-decoration: none;
+}
+
+a:visited {
+    color:rgb(72, 115, 243);
+}
+
+a:hover {
+    color: crimson;
 }
 
 .middle-bottom {
